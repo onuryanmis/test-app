@@ -1,0 +1,41 @@
+
+.url-input {
+    border: 2px solid #fff;
+    padding: 13px 10px;
+    font-size: 26px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.room-url-copy-btn {
+    outline: none;
+    background: #fff;
+    padding: 10px 22px;
+    border: 0;
+    color: #20BDFF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+    position: relative;
+    cursor: pointer;
+}
+
+.room-url-copy-btn:after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -9px;
+    border-style: solid;
+    border-width: 9px 9px 0;
+    border-color: #fff transparent transparent;
+}
+
+.copy-url-wrapper {
+    width: 75%;
+    margin: 0 auto
+}

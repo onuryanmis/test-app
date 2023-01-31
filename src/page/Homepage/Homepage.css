@@ -1,0 +1,25 @@
+#homepage-wrapper {
+    text-align: center;
+}
+
+#homepage-title {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+#get-started-button {
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    transition: 500ms all;
+}
+
+#get-started-button:hover {
+    transition: 500ms all;
+    background: #fff;
+    color: #66a6ff;
+}

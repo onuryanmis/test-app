@@ -1,0 +1,87 @@
+#round-title {
+    font-size: 65px;
+    text-align: center;
+    margin-top: -180px;
+}
+
+section#game-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.player-box {
+    text-align: center;
+    margin: 0 100px;
+}
+
+.player-box h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+ul.choices {
+    padding: 0;
+}
+
+ul.choices li:first-child {
+    margin-left: 0;
+}
+
+ul.choices li {
+    float: left;
+    list-style: none;
+    font-size: 75px;
+    border: 3px solid white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 500ms all;
+}
+
+ul.choices li:hover {
+    transform: rotate(360deg);
+    background: #fff;
+    color: #20BDFF;
+    transition: 500ms all;
+}
+
+.stars {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.player-wait-check{
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.player-wait-loader {
+    font-size: 100px;
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 50px;
+}
+
+ul.selected li {
+    visibility: hidden;
+}
+
+ul.selected li.selected-choice {
+    visibility: visible;
+    background: #fff;
+    color: #20BDFF;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
